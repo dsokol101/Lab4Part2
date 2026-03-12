@@ -1,7 +1,7 @@
- #LAB 4 Part 2 -- C-style arrays using pointer notation
+ # LAB 4 Part 2 -- C-style arrays using pointer notation
 
 
- In this lab, you will write functions to:
+ ## In this lab, you will write functions to:
 
  - read a file and populate an array of type double
  - sort the array
