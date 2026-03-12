@@ -3,8 +3,8 @@
 #include <string>
 
 // redo Lab 2 using pointer notation instead of array notation.
-void print(double arr[], size_t size);
-int load(double arr[], size_t size, std::string filename);
-void sort(double arr[], size_t size);
+void print(int arr[], size_t size);
+int load(int arr[], size_t size, std::string filename);
+void sort(int arr[], size_t size);
 
 #endif

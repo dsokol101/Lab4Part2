@@ -31,7 +31,7 @@ int main()
 {
     string filename = "my_file.txt";
     const size_t SIZE = 100;
-    double measurements[SIZE];
+    int measurements[SIZE];
 
     int sz = load(measurements, SIZE, filename);
     sort(measurements, sz);

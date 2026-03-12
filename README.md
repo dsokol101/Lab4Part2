@@ -4,7 +4,7 @@
 
 In this lab, you will write functions to:
 
-- read a file and populate an array of type `double`
+- read a file and populate an array of type `int`
 - sort the array
 - print the array to a file
 - swap values using helper functions
@@ -17,7 +17,7 @@ Redo Lab 2, which populated, sorted, and printed an array, but this time use poi
 2. Accept all array parameters in functions as pointers.
 3. Write **two** swap functions:
 
-   **a.** One function should accept the addresses of two individual `double` values and swap the values at those addresses.
+   **a.** One function should accept the addresses of two individual `int` values and swap the values at those addresses.
 
    **b.** One function should accept:
    - a pointer to the array
