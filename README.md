@@ -1,39 +1,40 @@
- # LAB 4 Part 2 -- C-style arrays using pointer notation
+# LAB 4 Part 2 -- C-Style Arrays Using Pointer Notation
 
+## Overview
 
- ## In this lab, you will write functions to:
+In this lab, you will write functions to:
 
- - read a file and populate an array of type double
- - sort the array
- - print the array to a file 
- - a swap function that will be called by the sort function
+- read a file and populate an array of type `double`
+- sort the array
+- print the array to a file
+- swap values using helper functions
 
- ## Redo Lab 2 which populates, sorts, and prints an array, using pointers. Your updated program should follow these requirements:
+## Instructions
 
-1. dynamically allocate the array of numbers in main.
-2. accept all array parameters in methods as pointers.
-3. write 2 swap functions:
+Redo Lab 2, which populated, sorted, and printed an array, but this time use pointers. Your updated program must follow these requirements:
 
-3a. Accepts the addresses of two individual integers, and swaps the values at those addresses
+1. Dynamically allocate the array of numbers in `main`.
+2. Accept all array parameters in functions as pointers.
+3. Write **two** swap functions:
 
-3b.  Accepts a pointer to the array and two integer indices (i and j), and swaps the elements at positions i and j in the array.
+   **a.** One function should accept the addresses of two individual `double` values and swap the values at those addresses.
 
-NOTE: all functions must accept the number of elements in the array as a parameter. 
+   **b.** One function should accept:
+   - a pointer to the array
+   - two integer indices (`i` and `j`)
 
-NOTE: Do not forget to delete[] the array at the end of main.
+   This function should swap the elements at positions `i` and `j` in the array.
 
--------------------------------------------------------------------
+## Important Notes
 
- To run my included unit tests, you can type at the shell prompt:
- make test
- 
- This command will compile both the files app.cpp and test.cpp
-and then run the executable a.out
+- All functions must accept the number of elements in the array as a parameter.
+- Do not forget to use `delete[]` on the array at the end of `main`.
 
-If you want to delete the executable to start again, you can type:
-make clean
+---
 
---------------------------------------------------------------------
+## Compiling and Running
 
+To run the included unit tests, type the following at the shell prompt:
 
- 
+```bash
+make test
